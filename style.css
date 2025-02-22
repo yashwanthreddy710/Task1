@@ -105,7 +105,6 @@ header{
 }
 
 .planlocation,.plandate,.guestnumber{
-    font-weight: lighter;
     font-size: x-small;
     margin: 10px;
 }
@@ -128,7 +127,6 @@ h5{
     text-align: center;
     margin-left: 35%;
     margin-right: 35%;
-    font-weight: lighter;
     /* border: 1px solid black; */
 }
 
