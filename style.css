@@ -1,0 +1,1603 @@
+
+@media(width>1024px){
+body {
+    max-width: 1200px;  
+    margin: 0 auto;  
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    /* border: 3px solid white; */
+}
+header{
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.fas.fa-suitcase{
+    color: orange;
+}
+
+.nav{
+    display: flex;
+}
+
+.credentials{
+    display: flex;
+    margin: 20px;
+}
+
+.navitems,.user,.h2{
+    margin: 10px;
+}
+
+.signup{
+    /* border: 1px solid black; */
+    padding: 10px 20px 10px 20px;
+    border-radius: 8%;
+    background-color: orange;
+}
+
+.login{
+    margin: auto;
+    color: orange;
+    font-weight: 300;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 350px;
+    margin: 20px;
+
+}
+
+.content{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.line1,.line2{
+    margin: 50px;
+}
+
+.line3{
+    margin: 50px;
+    /* border: 1px solid black; */
+    width: max-content;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: orange;
+}
+
+.content2{
+    background-image: url("https://img.freepik.com/free-photo/happy-african-woman-sitting-with-suitcase-isolated-yellow-background_74952-2303.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.info{
+    width: 70%;
+    background-color: white;
+    margin-top:30px ;
+    /* border: 1px solid black; */
+    display:flex ;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 15%;
+    /* border-radius: 5%; */
+    height: max-content;
+}
+
+.location,.date,.guest{
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: center;
+}
+.options{
+    color: orange;
+}
+
+.planlocation,.plandate,.guestnumber{
+    font-weight: lighter;
+    font-size: x-small;
+    margin: 10px;
+}
+
+.explore{
+    /* border: 1px solid black; */
+    background-color: orange;
+    border-radius: 5%;
+    padding: 10px;
+    height: max-content;
+}
+
+.things{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: lighter;
+    /* border: 1px solid black; */
+}
+
+.invest{
+    width : 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.div1,.div2,.div3{
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.fas.fa-user-plus,.fas.fa-wallet,.fas.fa-compass{
+    font-size: 35px;
+    margin: 20px;
+    color: orange;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.icon1,.icon2,.icon3{
+    font-size: small;
+    font-weight: lighter;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+.exclusive{
+    text-align: center;
+    margin-top: 100px;
+    /* border: 1px solid black; */
+}
+
+span,.fas.fa-star{
+    color: orange;
+}
+
+.deals{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 330px;
+    background-color: white;
+    padding: 2px;
+}
+
+.madrid,.firenze,.paris,.london,.italy,.japan,.europe{
+    width: 25%;
+}
+
+.madridimage,.firenzeimage,.parisimage,.londonimage,.romeimage,.ukimage,.spainimage,.osakaimage,.pic1,.pic2,.pic3,.pic4{
+    /* border: 1px solid black; */
+    height: 230px;
+    margin: 10px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.rating{
+    font-size: x-large;
+    margin-left: 5%;
+}
+
+.ratingline{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.ratespacing{
+    display: flex;
+}
+
+
+.discountline{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-content: center;
+}
+.Discount,.Loco{
+    display: flex;
+}
+
+.beforediscount{
+    text-decoration: line-through;
+    font-weight: lighter;
+    margin-top: 4px;
+}
+
+.afterdiscount{
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    padding: 3px;
+    color: rgb(249, 164, 7);
+    background-color: rgb(249, 249, 198);
+}
+
+.madridimage{
+    background-image: url("https://www.economist.com/content-assets/images/20240824_CUP504.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.firenzeimage{
+    background-image: url("https://www.samedayagratour.co.in/wp-content/uploads/2024/09/things-to-do-in-florence-italy.png");
+    background-size: cover;
+    background-position: center;
+}
+.parisimage{
+    background-image: url("https://unforgettabletravel.com/wp-content/uploads/2023/08/Eiffel-Tower-at-Sunset-Paris-France-e1701172433335.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.londonimage{
+    background-image: url("https://cdn.images.express.co.uk/img/dynamic/1/1200x675/5709960.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.romeimage{
+    background-image: url("https://i.pinimg.com/564x/48/07/fb/4807fba52dc779c195c68048dc6fc3ec.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.ukimage{
+    background-image: url("https://t4.ftcdn.net/jpg/05/86/75/37/360_F_586753704_vZy5Vg1HQrxx2VXft7ms09VcEf7lXwG2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.osakaimage{
+    background-image: url("https://www.snowmonkeyresorts.com/wp-content/uploads/2021/03/4288179_m.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.spainimage{
+    background-image: url("https://i.pinimg.com/474x/07/64/b2/0764b24aa8a838f9283faa78491200ee.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.placeline{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    font-size: larger;
+}
+.daysline{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    font-size: smaller;
+}
+
+.fas.fa-location-arrow{
+    color: orange;
+}
+.daysmarker{
+    display: flex;
+}
+.starleftspacing{
+    /* margin-left: 50%; */
+    display: flex;
+}
+
+.best{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.reviews{
+    margin-top: 150px;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.reviewtitle{
+    width: 40%;
+    margin: 20px;
+    /* border: 1px solid black; */
+}
+
+.what{
+    width: 70%;
+    /* border: 1px solid black; */
+    font-size: xx-large;
+}
+.ourclients{
+    width: 60%;
+    font-weight: lighter;
+}
+.arrowicons{
+    width: 100%;
+    margin-top: 50px;
+}
+.fas.fa-arrow-left{
+    border: 1px lightgray;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.fas.fa-arrow-right{
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: white;
+    background-color: orange;
+}
+
+.comments{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.comment-container {
+    position: relative;
+    width: 400px;
+}
+
+.comment-box {
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 5px gray;
+    position: absolute;
+}
+
+.first-comment {
+    z-index: 2; 
+    position: relative;
+    padding-left: 50px; 
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px; 
+    left: -25px; 
+    border: 3px solid white;
+}
+
+.second-comment {
+    top: 65px; 
+    left: 130px;
+    font-weight: lighter;
+    z-index: 1; 
+    background-color: lightgray;
+}
+.username{
+    font-size: 20px;
+}
+
+.userlocation{
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.get{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pic1{
+    background-image: url("https://thumbs.dreamstime.com/b/there-lonely-lush-tree-lawn-covered-orange-leaves-which-sun-rays-shining-autumn-rural-scenery-147923863.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.pic2{
+    background-image: url("https://thumbs.dreamstime.com/b/colorful-beach-scene-dawn-over-sapphire-australia-coloring-nature-golden-red-orange-mixture-island-30702685.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.pic3{
+    background-image: url("https://thumbs.dreamstime.com/b/wildlife-africa-tree-silhouette-illustration-savanna-dusk-safari-majestic-scenery-tranquil-343550936.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.pic4{
+    background-image: url("https://e0.pxfuel.com/wallpapers/521/570/desktop-wallpaper-scenery-in-orange-scenery-in-orange-stock-thumbnail.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.picline{
+    margin: 15px;
+    height: 35px;
+    /* text-align: center; */
+}
+.picdateline{
+    margin-left: 15px;
+    font-weight: lighter;
+    font-size: small;
+}
+.subscribe{
+    width: 100%;
+    border: 1px solid orange;
+    margin-top: 100px;
+    height: 270px;
+    background-color: orange;
+}
+.subscribeheading{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+.subscribeform{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: 24%;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    background-color: white;
+}
+.mail{
+    display: flex;
+}
+.email{
+    margin-left: 10px;
+}
+
+button{
+    background-color: orange;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 10%;
+    color: white;
+}
+
+.footer{
+    /* border: 1px solid black; */
+    height: max-content;
+    margin-top: 100px;
+    display: flex;
+    background-color: white;
+}
+.brandicons{
+    margin-left: 10px;
+    font-size: 30px;
+    padding: 10px;
+
+}
+.fa-brands.fa-facebook,.fa-brands.fa-instagram,.fa-brands.fa-brands.fa-twitter{
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+}
+.fa-brands.fa-instagram{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+}
+.fa-brands.fa-twitter{
+    font-size: 25px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.packbags{
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company,.contact,.more{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    height: max-content;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+@media (width<600px) {
+
+body {
+    width: 150%;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    font-size: smaller;
+}
+header{
+    /* border: 1px solid black; */
+    height: 40px;
+    display: flex;
+    font-size: smaller;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+main{
+    width: 100%;
+}
+.pack{
+    margin-right: 40px;
+}
+
+.nav{
+    display: flex;
+    margin-right: 20px;
+}
+
+.credentials{
+    display: flex;
+    margin: 20px;
+}
+
+.navitems,.user{
+    margin: 10px;
+    width: max-content;
+}
+
+.signup{
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 8%;
+    background-color: orange;
+    width: max-content;
+}
+
+.login{
+    margin: auto;
+    color: orange;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: max-content;
+    font-size: smaller;
+}
+
+.content{
+    width: 50%;
+}
+
+.line1,.line2{
+    margin: 50px;
+}
+
+.line3{
+    margin: 50px;
+    /* border: 1px solid black; */
+    width: max-content;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: orange;
+}
+
+.content2{
+    background-image: url("https://img.freepik.com/free-photo/happy-african-woman-sitting-with-suitcase-isolated-yellow-background_74952-2303.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 50%;
+}
+
+.info{
+    background-color: white;
+    margin-top:30px ;
+    /* border: 1px solid black; */
+    display:flex ;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: max-content;
+}
+
+.location,.date,.guest{
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: center;
+}
+.options{
+    color: orange;
+}
+
+.planlocation,.plandate,.guestnumber{
+    font-weight: lighter;
+    font-size: x-small;
+    margin: 10px;
+}
+
+.explore{
+    /* border: 1px solid black; */
+    background-color: orange;
+    border-radius: 5%;
+    padding: 10px;
+    height: max-content;
+    margin-top: 3%;
+    margin-right: 2%;
+    width: max-content;
+}
+
+.things{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    font-weight: lighter;
+    /* border: 1px solid black; */
+}
+
+.invest{
+    width : 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    height: max-content;
+}
+
+.div1,.div2,.div3{
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.fas.fa-user-plus,.fas.fa-wallet,.fas.fa-compass{
+    font-size: 35px;
+    margin: 20px;
+    color: orange;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.icon1,.icon2,.icon3{
+    font-size: small;
+    font-weight: lighter;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+.exclusive{
+    text-align: center;
+    margin-top: 100px;
+    /* border: 1px solid black; */
+}
+
+span,.fas.fa-star{
+    color: orange;
+}
+
+.deals{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto ;
+    gap: 30px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.madridimage,.firenzeimage,.parisimage,.londonimage,.romeimage,.ukimage,.spainimage,.osakaimage,.pic1,.pic2,.pic3,.pic4{
+    /* border: 1px solid black; */
+    height: 220px;
+    width: 200px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.rating{
+    font-size: small;
+    /* margin-right: 48%; */
+    /* margin-left: 5%; */
+    display: flex;
+    justify-content: space-between;
+}
+.ratespacing{
+    display: flex;
+}
+
+.ratingline{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.discountline{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.Discount,.Loco{
+    display: flex;
+    font-size: smaller;
+}
+.Loco{
+    padding: 4px;
+}
+
+.beforediscount{
+    text-decoration: line-through;
+    font-weight: lighter;
+    margin-top: 4px;
+}
+
+.afterdiscount{
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    padding: 3px;
+    color: rgb(249, 164, 7);
+    background-color: rgb(249, 249, 198);
+}
+
+.madridimage{
+    background-image: url("https://www.economist.com/content-assets/images/20240824_CUP504.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.firenzeimage{
+    background-image: url("https://www.samedayagratour.co.in/wp-content/uploads/2024/09/things-to-do-in-florence-italy.png");
+    background-size: cover;
+    background-position: center;
+}
+.parisimage{
+    background-image: url("https://unforgettabletravel.com/wp-content/uploads/2023/08/Eiffel-Tower-at-Sunset-Paris-France-e1701172433335.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.londonimage{
+    background-image: url("https://cdn.images.express.co.uk/img/dynamic/1/1200x675/5709960.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.romeimage{
+    background-image: url("https://i.pinimg.com/564x/48/07/fb/4807fba52dc779c195c68048dc6fc3ec.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.ukimage{
+    background-image: url("https://t4.ftcdn.net/jpg/05/86/75/37/360_F_586753704_vZy5Vg1HQrxx2VXft7ms09VcEf7lXwG2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.osakaimage{
+    background-image: url("https://www.snowmonkeyresorts.com/wp-content/uploads/2021/03/4288179_m.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.spainimage{
+    background-image: url("https://i.pinimg.com/474x/07/64/b2/0764b24aa8a838f9283faa78491200ee.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.placeline{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    font-size: 12px;
+}
+.daysline{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    font-size: smaller;
+}
+
+.fas.fa-location-arrow{
+    color: orange;
+}
+.starleftspacing{
+    /* margin-left: 50%; */
+    display: flex;
+}
+.daysmarker{
+    display: flex;
+}
+.best{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.reviews{
+    margin-top: 150px;
+    height: max-content;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviewtitle{
+    font-size: smaller;
+    /* border: 1px solid black; */
+}
+
+.what{
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: large;
+}
+.ourclients{
+    width: 100%;
+    /* font-weight: lighter; */
+    font-size: medium;
+}
+.arrowicons{
+    width: 100%;
+    margin-top: 30px;
+}
+.fas.fa-arrow-left{
+    border: 1px lightgray;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.fas.fa-arrow-right{
+    /* border: 1px solid black; */
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: white;
+    background-color: orange;
+}
+
+.comments{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    height:fit-content ;
+    /* border: 1px solid black; */
+}
+
+.comment-container {
+    position: relative;
+    /* width: 10px; */
+    width: max-content;
+}
+
+.comment-box {
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 5px gray;
+    position: absolute;
+    height: 130px;
+    font-size: smaller;
+}
+.username,.userlocation{
+    font-size: smaller;
+    width: max-content;
+}
+
+.first-comment {
+    z-index: 2; 
+    position: relative;
+    padding-left: 50px; 
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px; 
+    left: -25px; 
+    border: 3px solid white;
+}
+
+.second-comment {
+    top: -20px; 
+    left: 150px;
+    font-weight: lighter;
+    z-index: 1; 
+    background-color: lightgray;
+}
+
+.get{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.madrid{
+    width: max-content;
+    align-items: center;
+    /* margin: auto; */
+}
+
+.pic1{
+    background-image: url("https://thumbs.dreamstime.com/b/there-lonely-lush-tree-lawn-covered-orange-leaves-which-sun-rays-shining-autumn-rural-scenery-147923863.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.pic2{
+    background-image: url("https://thumbs.dreamstime.com/b/colorful-beach-scene-dawn-over-sapphire-australia-coloring-nature-golden-red-orange-mixture-island-30702685.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.pic3{
+    background-image: url("https://thumbs.dreamstime.com/b/wildlife-africa-tree-silhouette-illustration-savanna-dusk-safari-majestic-scenery-tranquil-343550936.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.pic4{
+    background-image: url("https://e0.pxfuel.com/wallpapers/521/570/desktop-wallpaper-scenery-in-orange-scenery-in-orange-stock-thumbnail.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.picline{
+    /* margin: 15px; */
+    height: max-content;
+}
+.picdateline{
+    /* margin-left: 15px; */
+    font-weight: lighter;
+    font-size: smaller;
+}
+.subscribe{
+    /* width: 150%; */
+    border: 1px solid orange;
+    margin-top: 100px;
+    align-items: center;
+    height: max-content;
+    background-color: orange;
+}
+.subscribeheading{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+.subscribeform{
+    /* border: 1px solid black; */
+    width: max-content;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10px;
+    font-size: small;
+    background-color: white;
+
+}
+.mail{
+    display: flex;
+}
+.email{
+    margin-left: 10px;
+    font-size: smaller;
+}
+
+button{
+    background-color: orange;
+    font-size: small;
+    padding: 5px;
+    border-radius: 10%;
+    color: white;
+    margin-left: 35px;
+    height: max-content;
+}
+
+.footer{
+    /* border: 1px solid black; */
+    height: max-content;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: smaller;
+    background-color: white;
+}
+.brandicons{
+    font-size: 20px;
+}
+.fa-brands.fa-facebook,.fa-brands.fa-instagram,.fa-brands.fa-brands.fa-twitter{
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.fa-brands.fa-facebook{
+    font-size: 25px;
+}
+.fa-brands.fa-instagram{
+    padding: 5px;
+    background-color: orange;
+    color: white;
+}
+.fa-brands.fa-twitter{
+    padding: 5px;
+}
+
+.packbags{
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.company,.contact,.more{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    gap: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+}
+
+@media(min-width:600px) and (max-width:1024px){
+    body {
+        margin: 0 auto;  
+        font-family: Arial, sans-serif;
+        background-color: aliceblue;
+    }
+    header{
+        /* border: 1px solid black; */
+        height: 50px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .nav{
+        display: flex;
+    }
+    
+    .credentials{
+        display: flex;
+        margin: 20px;
+    }
+    
+    .navitems,.user,.h2{
+        margin: 10px;
+    }
+    
+    .signup{
+        /* border: 1px solid black; */
+        padding: 10px 20px 10px 20px;
+        border-radius: 8%;
+        background-color: orange;
+    }
+    
+    .login{
+        margin: auto;
+        color: orange;
+        font-weight: 300;
+    }
+    
+    .hero{
+        display: flex;
+        width: 100%;
+        /* border: 1px solid black; */
+        height: max-content;
+        margin: 20px;
+    
+    }
+    
+    .content{
+        /* border: 1px solid black; */
+        width: 50%;
+    }
+    
+    .line1,.line2{
+        margin: 50px;
+    }
+    
+    .line3{
+        margin: 50px;
+        /* border: 1px solid black; */
+        width: max-content;
+        padding: 10px;
+        border-radius: 5%;
+        background-color: orange;
+    }
+    
+    .content2{
+        background-image: url("https://img.freepik.com/free-photo/happy-african-woman-sitting-with-suitcase-isolated-yellow-background_74952-2303.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 40%;
+        margin-left: 5%;
+    }
+    
+    .info{
+        width: 70%;
+        background-color: white;
+        margin-top:30px ;
+        /* border: 1px solid black; */
+        display:flex ;
+        justify-content: space-between;
+        padding: 20px;
+        margin-left: 15%;
+        /* border-radius: 5%; */
+        height: max-content;
+    }
+    
+    .location,.date,.guest{
+        /* border: 1px solid black; */
+        padding: 10px;
+        text-align: center;
+    }
+    .options{
+        color: orange;
+    }
+    
+    .planlocation,.plandate,.guestnumber{
+        font-weight: lighter;
+        font-size: x-small;
+        margin: 10px;
+    }
+    
+    .explore{
+        /* border: 1px solid black; */
+        background-color: orange;
+        border-radius: 5%;
+        padding: 10px;
+        height: max-content;
+    }
+    
+    .things{
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    h5{
+        text-align: center;
+        margin-left: 35%;
+        margin-right: 35%;
+        font-weight: lighter;
+        /* border: 1px solid black; */
+    }
+    
+    .invest{
+        width : 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-evenly;
+        height: 200px;
+    }
+    
+    .div1,.div2,.div3{
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    
+    .fas.fa-user-plus,.fas.fa-wallet,.fas.fa-compass{
+        font-size: 35px;
+        margin: 20px;
+        color: orange;
+    }
+    
+    h3{
+        margin-left: 20px;
+    }
+    
+    .icon1,.icon2,.icon3{
+        font-size: small;
+        font-weight: lighter;
+        width: 80%;
+        /* border: 1px solid black; */
+    }
+    
+    .exclusive{
+        text-align: center;
+        margin-top: 100px;
+        /* border: 1px solid black; */
+    }
+    
+    span,.fas.fa-star{
+        color: orange;
+    }
+    
+    .deals{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: max-content;
+        background-color: white;
+        padding: 2px;
+    }
+    
+    .madrid,.firenze,.paris,.london,.italy,.japan,.europe{
+        width: 25%;
+    }
+    
+    .madridimage,.firenzeimage,.parisimage,.londonimage,.romeimage,.ukimage,.spainimage,.osakaimage,.pic1,.pic2,.pic3,.pic4{
+        /* border: 1px solid black; */
+        height: 180px;
+        margin: 10px;
+        border-radius: 5%;
+        background-color: white;
+    }
+    
+    .rating{
+        font-size: large;
+        margin-left: 5%;
+    }
+    
+    .ratingline{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .ratespacing{
+        display: flex;
+    }
+    
+    
+    .discountline{
+        display: flex;
+        justify-content: space-between;
+        /* margin: 20px; */
+        font-size: smaller;
+        align-content: center;
+        margin-left: 10px;
+    }
+    .Discount,.Loco{
+        display: flex;
+    }
+    
+    .beforediscount{
+        text-decoration: line-through;
+        font-weight: lighter;
+        margin-top: 4px;
+    }
+    
+    .afterdiscount{
+        /* border: 1px solid black; */
+        margin-left: 10px;
+        padding: 3px;
+        color: rgb(249, 164, 7);
+        background-color: rgb(249, 249, 198);
+    }
+    
+    .madridimage{
+        background-image: url("https://www.economist.com/content-assets/images/20240824_CUP504.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .firenzeimage{
+        background-image: url("https://www.samedayagratour.co.in/wp-content/uploads/2024/09/things-to-do-in-florence-italy.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .parisimage{
+        background-image: url("https://unforgettabletravel.com/wp-content/uploads/2023/08/Eiffel-Tower-at-Sunset-Paris-France-e1701172433335.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .londonimage{
+        background-image: url("https://cdn.images.express.co.uk/img/dynamic/1/1200x675/5709960.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .romeimage{
+        background-image: url("https://i.pinimg.com/564x/48/07/fb/4807fba52dc779c195c68048dc6fc3ec.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .ukimage{
+        background-image: url("https://t4.ftcdn.net/jpg/05/86/75/37/360_F_586753704_vZy5Vg1HQrxx2VXft7ms09VcEf7lXwG2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .osakaimage{
+        background-image: url("https://www.snowmonkeyresorts.com/wp-content/uploads/2021/03/4288179_m.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .spainimage{
+        background-image: url("https://i.pinimg.com/474x/07/64/b2/0764b24aa8a838f9283faa78491200ee.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .placeline{
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+        font-size: 13px;
+    }
+    .daysline{
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+        font-size: 10px;
+    }
+    
+    .fas.fa-location-arrow{
+        color: orange;
+    }
+    .daysmarker{
+        display: flex;
+    }
+    .starleftspacing{
+        /* margin-left: 50%; */
+        display: flex;
+    }
+    
+    .best{
+        margin-top: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .reviews{
+        margin-top: 150px;
+        height: max-content;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    .reviewtitle{
+        width: 40%;
+        margin: 20px;
+        /* border: 1px solid black; */
+    }
+    
+    .what{
+        /* width: 70%; */
+        /* border: 1px solid black; */
+        font-size: 25px;
+    }
+    .ourclients{
+        width: 60%;
+        font-weight: lighter;
+    }
+    .arrowicons{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .fas.fa-arrow-left{
+        border: 1px lightgray;
+        padding: 15px;
+        border-radius: 50%;
+        background-color: lightgray;
+    }
+    
+    .fas.fa-arrow-right{
+        /* border: 1px solid black; */
+        padding: 15px;
+        border-radius: 50%;
+        margin-left: 20px;
+        color: white;
+        background-color: orange;
+    }
+    
+    .comments{
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .comment-container {
+        position: relative;
+        width: 400px;
+    }
+    
+    .comment-box {
+        width: 400px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 10px 10px 5px gray;
+        position: absolute;
+    }
+    
+    .first-comment {
+        z-index: 2; 
+        position: relative;
+        padding-left: 30px; 
+    }
+    
+    .profile-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        top: -25px; 
+        left: -25px; 
+        border: 3px solid white;
+    }
+    
+    .second-comment {
+        top: 105px; 
+        left: 20px;
+        /* font-weight: lighter; */
+        z-index: 1; 
+        background-color: lightgray;
+    }
+    .username{
+        font-size: 20px;
+    }
+    
+    .userlocation{
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    
+    .get{
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .pic1{
+        background-image: url("https://thumbs.dreamstime.com/b/there-lonely-lush-tree-lawn-covered-orange-leaves-which-sun-rays-shining-autumn-rural-scenery-147923863.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .pic2{
+        background-image: url("https://thumbs.dreamstime.com/b/colorful-beach-scene-dawn-over-sapphire-australia-coloring-nature-golden-red-orange-mixture-island-30702685.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .pic3{
+        background-image: url("https://thumbs.dreamstime.com/b/wildlife-africa-tree-silhouette-illustration-savanna-dusk-safari-majestic-scenery-tranquil-343550936.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .pic4{
+        background-image: url("https://e0.pxfuel.com/wallpapers/521/570/desktop-wallpaper-scenery-in-orange-scenery-in-orange-stock-thumbnail.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .picline{
+        margin: 15px;
+        height: max-content;
+        font-size: 13px;
+        /* text-align: center; */
+    }
+    .picdateline{
+        margin-left: 15px;
+        font-weight: lighter;
+        font-size: small;
+        height: max-content;
+    }
+    .subscribe{
+        width: 100%;
+        border: 1px solid orange;
+        margin-top: 100px;
+        height: 270px;
+        background-color: orange;
+    }
+    .subscribeheading{
+        font-size: 40px;
+        text-align: center;
+        margin: 50px;
+        color: white;
+    }
+    .subscribeform{
+        /* border: 1px solid black; */
+        width: 50%;
+        margin-left: 24%;
+        align-items: center;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        height: 10px;
+        background-color: white;
+    }
+    .mail{
+        display: flex;
+    }
+    .email{
+        margin-left: 10px;
+    }
+    
+    button{
+        background-color: orange;
+        font-size: medium;
+        padding: 5px;
+        border-radius: 10%;
+        color: white;
+    }
+    
+    .footer{
+        /* border: 1px solid black; */
+        height: max-content;
+        margin-top: 100px;
+        display: flex;
+        background-color: white;
+    }
+    .brandicons{
+        margin-left: 10px;
+        font-size: 30px;
+        padding: 10px;
+    
+    }
+    .fa-brands.fa-facebook,.fa-brands.fa-instagram,.fa-brands.fa-brands.fa-twitter{
+        margin-left: 10px;
+        box-shadow: 5px 5px 5px black;
+        border-radius: 50%;
+    }
+    .fa-brands.fa-instagram{
+        /* border: 1px solid black; */
+        font-size: 25px;
+        padding: 5px;
+        background-color: orange;
+        color: white;
+    }
+    .fa-brands.fa-twitter{
+        font-size: 25px;
+        padding: 5px;
+        box-shadow: 5px 5px 5px black;
+    }
+    
+    .packbags{
+        width: 30%;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .company,.contact,.more{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        height: max-content;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    }
