@@ -155,7 +155,6 @@ h3{
 
 .icon1,.icon2,.icon3{
     font-size: small;
-    font-weight: lighter;
     width: 80%;
     /* border: 1px solid black; */
 }
@@ -218,7 +217,6 @@ span,.fas.fa-star{
 
 .beforediscount{
     text-decoration: line-through;
-    font-weight: lighter;
     margin-top: 4px;
 }
 
@@ -322,7 +320,6 @@ span,.fas.fa-star{
 }
 .ourclients{
     width: 60%;
-    font-weight: lighter;
 }
 .arrowicons{
     width: 100%;
@@ -384,7 +381,6 @@ span,.fas.fa-star{
 .second-comment {
     top: 65px; 
     left: 130px;
-    font-weight: lighter;
     z-index: 1; 
     background-color: lightgray;
 }
@@ -394,7 +390,6 @@ span,.fas.fa-star{
 
 .userlocation{
     font-size: 13px;
-    font-weight: lighter;
 }
 
 .get{
@@ -429,7 +424,6 @@ span,.fas.fa-star{
 }
 .picdateline{
     margin-left: 15px;
-    font-weight: lighter;
     font-size: small;
 }
 .subscribe{
@@ -630,7 +624,6 @@ main{
 }
 
 .planlocation,.plandate,.guestnumber{
-    font-weight: lighter;
     font-size: x-small;
     margin: 10px;
 }
@@ -654,7 +647,6 @@ main{
 
 h5{
     text-align: center;
-    font-weight: lighter;
     /* border: 1px solid black; */
 }
 
@@ -683,7 +675,6 @@ h3{
 
 .icon1,.icon2,.icon3{
     font-size: small;
-    font-weight: lighter;
     width: 80%;
     /* border: 1px solid black; */
 }
@@ -702,7 +693,6 @@ span,.fas.fa-star{
     width: max-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin:auto ;
     gap: 30px;
     justify-content: space-between;
@@ -712,15 +702,13 @@ span,.fas.fa-star{
 .madridimage,.firenzeimage,.parisimage,.londonimage,.romeimage,.ukimage,.spainimage,.osakaimage,.pic1,.pic2,.pic3,.pic4{
     /* border: 1px solid black; */
     height: 220px;
-    width: 200px;
+    width: 450px;
     border-radius: 5%;
     background-color: white;
 }
 
 .rating{
     font-size: small;
-    /* margin-right: 48%; */
-    /* margin-left: 5%; */
     display: flex;
     justify-content: space-between;
 }
@@ -749,7 +737,6 @@ span,.fas.fa-star{
 
 .beforediscount{
     text-decoration: line-through;
-    font-weight: lighter;
     margin-top: 4px;
 }
 
@@ -765,6 +752,7 @@ span,.fas.fa-star{
     background-image: url("https://www.economist.com/content-assets/images/20240824_CUP504.jpg");
     background-size: cover;
     background-position: center;
+    /* width: 350%; */
 }
 
 .firenzeimage{
@@ -853,7 +841,6 @@ span,.fas.fa-star{
 }
 .ourclients{
     width: 100%;
-    /* font-weight: lighter; */
     font-size: medium;
 }
 .arrowicons{
@@ -925,7 +912,6 @@ span,.fas.fa-star{
 .second-comment {
     top: -20px; 
     left: 150px;
-    font-weight: lighter;
     z-index: 1; 
     background-color: lightgray;
 }
@@ -966,12 +952,9 @@ span,.fas.fa-star{
     margin: auto;
 }
 .picline{
-    /* margin: 15px; */
     height: max-content;
 }
 .picdateline{
-    /* margin-left: 15px; */
-    font-weight: lighter;
     font-size: smaller;
 }
 .subscribe{
@@ -1175,7 +1158,6 @@ footer{
     }
     
     .planlocation,.plandate,.guestnumber{
-        font-weight: lighter;
         font-size: x-small;
         margin: 10px;
     }
@@ -1196,10 +1178,6 @@ footer{
     
     h5{
         text-align: center;
-        margin-left: 35%;
-        margin-right: 35%;
-        font-weight: lighter;
-        /* border: 1px solid black; */
     }
     
     .invest{
@@ -1227,7 +1205,6 @@ footer{
     
     .icon1,.icon2,.icon3{
         font-size: small;
-        font-weight: lighter;
         width: 80%;
         /* border: 1px solid black; */
     }
@@ -1292,7 +1269,6 @@ footer{
     
     .beforediscount{
         text-decoration: line-through;
-        font-weight: lighter;
         margin-top: 4px;
     }
     
@@ -1396,7 +1372,6 @@ footer{
     }
     .ourclients{
         width: 60%;
-        font-weight: lighter;
     }
     .arrowicons{
         width: 100%;
@@ -1458,7 +1433,6 @@ footer{
     .second-comment {
         top: 105px; 
         left: 20px;
-        /* font-weight: lighter; */
         z-index: 1; 
         background-color: lightgray;
     }
@@ -1468,7 +1442,6 @@ footer{
     
     .userlocation{
         font-size: 13px;
-        font-weight: lighter;
     }
     
     .get{
@@ -1504,7 +1477,6 @@ footer{
     }
     .picdateline{
         margin-left: 15px;
-        font-weight: lighter;
         font-size: small;
         height: max-content;
     }
